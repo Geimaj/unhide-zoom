@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "UnhideZoom",
+  "version": "1.0",
+
+  "description": "Unhides the link to the Zoom web client",
+
+  "icons": {
+    "48": "icon.jpg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.zoom.us/*"],
+      "js": ["unhide.js"]
+    }
+  ]
+}

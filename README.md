@@ -1,0 +1,1 @@
+I want to be able to join Zoom meetings from the browser, but Zoom likes to hide the 'open in browser' link from you, so this simple browser extension finds the hidden link and prompts the user with the option to open in the browser.
